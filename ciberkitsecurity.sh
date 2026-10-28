@@ -1,4 +1,22 @@
 #!/bin/bash
+# ---------- SENATEVIL BANNER ----------
+show_senatevil_banner() {
+    printf '\033[1;31m'
+    cat <<'SENATEVIL_BANNER'
+
+  ███████╗███████╗███╗   ██╗ █████╗ ████████╗███████╗██╗   ██╗██╗██╗
+  ██╔════╝██╔════╝████╗  ██║██╔══██╗╚══██╔══╝██╔════╝██║   ██║██║██║
+  ███████╗█████╗  ██╔██╗ ██║███████║   ██║   █████╗  ██║   ██║██║██║
+  ╚════██║██╔══╝  ██║╚██╗██║██╔══██║   ██║   ██╔══╝  ╚██╗ ██╔╝██║██║
+  ███████║███████╗██║ ╚████║██║  ██║   ██║   ███████╗ ╚████╔╝ ██║██████
+  ╚══════╝╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝   ╚══════╝  ╚═══╝  ╚═╝╚═══╝╝
+
+                 [ CYBERSEC TOOLKIT v2.0 ]
+            Auditoría local y reconocimiento autorizado
+SENATEVIL_BANNER
+    printf '\033[0m\n'
+}
+# ---------------------------------------------
 # CYBERSEC TOOLKIT v2.0
 # Toolkit interactivo para auditoría local y reconocimiento autorizado
 # Uso: ./cibersec_toolkit.sh
@@ -96,6 +114,7 @@ valid_domain() {
 # ---------- CABECERA ----------
 show_header() {
     clear 2>/dev/null || true
+    show_senatevil_banner
     echo -e "${CYAN}╔══════════════════════════════════════════════════╗${NC}"
     echo -e "${CYAN}║              CYBERSEC TOOLKIT v2.0               ║${NC}"
     echo -e "${CYAN}║         Auditoría local + Reconocimiento         ║${NC}"
