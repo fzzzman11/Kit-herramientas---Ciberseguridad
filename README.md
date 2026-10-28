@@ -86,7 +86,7 @@ Aparecerá un menú interactivo desde el que podrás seleccionar el módulo que 
 
 <img width="759" height="519" alt="image" src="https://github.com/user-attachments/assets/bae5ba0a-74f6-44fd-85dc-15393778f3b7" />
 
-```
+
 
 Selecciona una opción e introduce los datos solicitados. Al finalizar cada módulo, podrás volver al menú principal.
 
@@ -97,7 +97,7 @@ Selecciona una opción e introduce los datos solicitados. Al finalizar cada mód
 Muestra información general del equipo, incluyendo hostname, kernel, arquitectura, direcciones IP y tiempo de actividad.
 
 <!-- CAPTURA DEL MÓDULO 1 -->
-![Información del sistema](capturas/01-info-sistema.png)
+![Captura opción 1](capturas-options/captura%20op1.png)
 
 ---
 
@@ -106,7 +106,7 @@ Muestra información general del equipo, incluyendo hostname, kernel, arquitectu
 Realiza una revisión general del sistema, incluyendo usuarios, permisos, puertos en escucha y archivos relevantes para la auditoría.
 
 <!-- CAPTURA DEL MÓDULO 2 -->
-![Auditoría avanzada](capturas/02-auditoria-avanzada.png)
+![Captura opción 1](capturas-options/captura%20op2.png)
 
 ---
 
@@ -115,7 +115,7 @@ Realiza una revisión general del sistema, incluyendo usuarios, permisos, puerto
 Permite consultar usuarios conectados, últimos accesos y cuentas con shell válida.
 
 <!-- CAPTURA DEL MÓDULO 3 -->
-![Usuarios y sesiones](capturas/03-usuarios-sesiones.png)
+![Captura opción 1](capturas-options/captura%20op3.png)
 
 ---
 
@@ -124,7 +124,7 @@ Permite consultar usuarios conectados, últimos accesos y cuentas con shell vál
 Busca archivos con bits de permisos especiales para facilitar su identificación y revisión.
 
 <!-- CAPTURA DEL MÓDULO 4 -->
-![Búsqueda SUID y SGID](capturas/04-suid-sgid.png)
+![Captura opción 1](capturas-options/captura%20op4.png)
 
 ---
 
@@ -133,7 +133,7 @@ Busca archivos con bits de permisos especiales para facilitar su identificación
 Examina los registros disponibles para identificar intentos fallidos de autenticación y otros patrones relevantes.
 
 <!-- CAPTURA DEL MÓDULO 5 -->
-![Análisis de autenticación](capturas/05-logs-autenticacion.png)
+![Captura opción 1](capturas-options/captura%20op5.png)
 
 ---
 
@@ -142,7 +142,7 @@ Examina los registros disponibles para identificar intentos fallidos de autentic
 Calcula hashes SHA256 de los archivos de un directorio para facilitar su identificación y comparación posterior.
 
 <!-- CAPTURA DEL MÓDULO 6 -->
-![Inventario SHA256](capturas/06-inventario-sha256.png)
+![Captura opción 1](capturas-options/captura%20op6.png)
 
 ---
 
@@ -151,7 +151,7 @@ Calcula hashes SHA256 de los archivos de un directorio para facilitar su identif
 Permite consultar registros DNS como A, AAAA, MX, NS, TXT, CNAME y SOA para dominios autorizados.
 
 <!-- CAPTURA DEL MÓDULO 7 -->
-![Reconocimiento DNS](capturas/07-reconocimiento-dns.png)
+![Captura opción 1](capturas-options/captura%20op7.png)
 
 ---
 
@@ -160,7 +160,7 @@ Permite consultar registros DNS como A, AAAA, MX, NS, TXT, CNAME y SOA para domi
 Muestra puertos en escucha y conexiones activas disponibles en el sistema.
 
 <!-- CAPTURA DEL MÓDULO 8 -->
-![Puertos y conexiones](capturas/08-red-conexiones.png)
+![Captura opción 1](capturas-options/captura%20op8.png)
 
 ---
 
@@ -169,7 +169,7 @@ Muestra puertos en escucha y conexiones activas disponibles en el sistema.
 Facilita la revisión de procesos activos y su consumo de recursos.
 
 <!-- CAPTURA DEL MÓDULO 9 -->
-![Procesos en ejecución](capturas/09-procesos.png)
+![Captura opción 1](capturas-options/captura%20op9.png)
 
 ---
 
@@ -178,7 +178,7 @@ Facilita la revisión de procesos activos y su consumo de recursos.
 Permite comprobar puertos TCP mediante rangos predefinidos o personalizados, dentro del alcance autorizado.
 
 <!-- CAPTURA DEL MÓDULO 10 -->
-![Escáner de puertos](capturas/10-escaner-puertos.png)
+![Captura opción 1](capturas-options/captura%20op10.png)
 
 ---
 
@@ -187,7 +187,7 @@ Permite comprobar puertos TCP mediante rangos predefinidos o personalizados, den
 Comprueba qué herramientas necesita la aplicación y cuáles están disponibles en el sistema.
 
 <!-- CAPTURA DEL MÓDULO 11 -->
-![Verificación de dependencias](capturas/11-dependencias.png)
+![Captura opción 1](capturas-options/captura%20op11.png)
 
 ---
 
@@ -196,7 +196,7 @@ Comprueba qué herramientas necesita la aplicación y cuáles están disponibles
 Muestra el registro de las operaciones realizadas durante la sesión actual.
 
 <!-- CAPTURA DEL MÓDULO 12 -->
-![Registro de actividad](capturas/12-registro-actividad.png)
+![Captura opción 1](capturas-options/captura%20op12.png)
 
 ---
 
@@ -205,7 +205,7 @@ Muestra el registro de las operaciones realizadas durante la sesión actual.
 Genera reportes en formato TXT y HTML con los resultados recopilados durante la auditoría.
 
 <!-- CAPTURA DEL MÓDULO 13 -->
-![Generación de informes](capturas/13-informes.png)
+![Captura opción 1](capturas-options/captura%20op13.png)
 
 ---
 
@@ -214,7 +214,7 @@ Genera reportes en formato TXT y HTML con los resultados recopilados durante la 
 Permite modificar permisos mediante `chmod`, con confirmación explícita antes de aplicar los cambios.
 
 <!-- CAPTURA DEL MÓDULO 14 -->
-![Gestor de permisos](capturas/14-gestor-permisos.png)
+![Captura opción 1](capturas-options/captura%20op15.png)
 
 ---
 
@@ -222,8 +222,6 @@ Permite modificar permisos mediante `chmod`, con confirmación explícita antes 
 
 Ejecuta los módulos principales y recopila los resultados para facilitar una revisión general del sistema.
 
-<!-- CAPTURA DEL MÓDULO 15 -->
-![Auditoría completa](capturas/15-auditoria-completa.png)
 ## 📂 RESULTADOS Y EVIDENCIAS
 
 Los resultados se almacenan localmente en directorios asociados a cada sesión.
